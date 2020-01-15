@@ -89,3 +89,16 @@ follow along to understand the code.
     into this new directory, git checkout -b 'firstname-lastname' to create your own branch, complete 
     necessary work, git add . to add changes, git commit -m "comments" to save changes, git push origin
     'firstname-lastname' to upload to github, use branch name then submit PR, add tl to reviewers. 
+
+    Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    inline elements may only contain data or other inline elements, so block elements cant go inside.
+    inline elements also do not force a line break in document flow while block elements do.
+    2. What happens when an element is positioned absolutely? 
+    Computed position is fixed, element is removed  from the normal document flow, and no space is created
+    for the element in the page layout. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+     
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
