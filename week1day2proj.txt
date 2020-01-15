@@ -1,0 +1,91 @@
+Here is codepen link for the project:
+https://codepen.io/neel777/pen/KKwBWWV?editors=1100
+Also, just noting that to follow the instructions and make the
+necessary edits, I copied the css from the model project. I made sure to
+follow along to understand the code.
+
+    1. What is Semantic HTML? 
+    The use of HTML markup to reinforce the meaning of the information in webpages/applications.
+    2. What is HTML used for? 
+    Hyper Text Markup Language is used to create webpages on the world wide web.
+    3. What is an attribute and where do we put it? 
+    In HTML's scope, attributes are special content inside tags used to dictate the element's behavior.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 tag is an example of a tag used to indicate a heading on a website. As it is the largest header tag, it should be used primarily for the more important titles.
+    5. Name two tags that have required attributes:
+    Two tags would be the <a> tag that requires the href attribute for links, and the <img> tag that requires the src attribute for images.
+    6. What do we put in the head of our HTML document? 
+    The head element usually contains the data at the top of the document, such as title, description or table of contents etc.
+    7. What is an id? 
+    Id is an attribute used to identify a unique ID, which makes it easier to manipulate the particular element in CSS.
+    8. What elements can I add an id to? 
+    id can be used with any element.
+    9. How many times can I use the same id on a page? 
+    only once.
+    10. What is a class? 
+    class is an attribute similar to id; used to identify element(s), only difference is it can be used multiple times.
+    11. What elements can I add a class to? 
+    class can be used with any element. 
+    12. How many times can I use the same class on a page? 
+    Multiple times.
+    13. How do I get my link to open in a new tab?
+    First, we would use the <a> tag with the href attribute to get a working link. The trick 
+    here would be to use 'target = "blank"' to get the link to open in a new tab.
+    It should look something like: <a href="websitelink" target="blank">websitename<a/>
+    14. What is the alt attribute used for? 
+    alt is used to caption an image.
+    15. How do I reference an id?
+    in CSS, you would reference an id using hashtag, IE #idname{changes}
+    16. What is the difference between a section and a div
+    div is the generic element used when none other are applicable, it can be used with attributes to mark up 
+    semantics common to a group of consecutive elements. section on the other hand, is used to partition a thematic 
+    grouping of content, such as a chapter, introduction, conclusion etc
+    17. What is CSS used for? 
+    CSS is used to define styles for a webpage, basically it is used to make the website less ugly.
+    CSS is used to change color, animations, layouts, sizings
+    18. How to we select an element? Example - every h2 on the page
+    to select an element to manipulate in CSS, we simply call the element name and apply necessary changes
+    in curly braces, IE h2 {changes=change;}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Difference is that ID is a unique identifier that is used once while class can be used multiple times.
+    IE: use ID for the singular main title, use class to apply to multiple paragraphs. 
+    20. How do we select classes in CSS?
+    similar to ID, we use the .:.class {changes=change;}
+    21. How do we select a p element with a single class of “human””?
+    To select an element with a class, you use p.human{changes}
+    22. What is a parent child selector? When would this be useful? 
+    Descendant selectors are used to select all elements which are a child of another element. 
+    23. How do you select all links within a div with the class of sidebar?
+    div.sidebar a{CSS changes;}
+    24. What is a pseudo selector?
+    A pseudo selector is used for a pseudo class - a special state of an element.
+    25. What do we use the change the spacing between lines?
+    line-height propert.
+    26. What do we use to change the spacing between letters?
+    letter-spacing property. 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform property. 
+    28. How do I add a 1px border around my div that is dotted and black?
+    specifically, div {border-style: dotted;, border-width: 1px, border-color: black;}
+    29. How do I select everything on the page? 
+    *{changes}
+    30. How do I write a comment in CSS?
+    /* comment here */
+    31. How do I find out what file I am in, when I am using the command line?
+    pwd 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm <filename>, it gives no warning so be careful before deleting a file
+    34. Why should I use version control? 
+    Keeps track of modifications, allows developers to work concurrently
+    35. How often should I commit to github?
+    depends, should commit upon completion of some sort of milestone in the code(completed exercise, thought etc)
+    36. What is the command we would use to push our repo up to github? 
+    git push origin 'firstname-lastname'
+    37. Walk me through Lambda's git flow. 
+    fork first, add tl as collaborator, clone, save clone link, in git bash, navigate to
+    location where clone should be stored, git clone <clone link> in that directory, navigate
+    into this new directory, git checkout -b 'firstname-lastname' to create your own branch, complete 
+    necessary work, git add . to add changes, git commit -m "comments" to save changes, git push origin
+    'firstname-lastname' to upload to github, use branch name then submit PR, add tl to reviewers. 
