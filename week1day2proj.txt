@@ -99,6 +99,8 @@ follow along to understand the code.
     Computed position is fixed, element is removed  from the normal document flow, and no space is created
     for the element in the page layout. 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
-     
+     display: inline-block
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+   <a> and <span> are display inline, <div> and <p> are display block, 
+    5. In your own words, explain the box model. What is the fix for the box model?
+    A method to position elements on the page through CSS. The layout is margin, border, padding then content. 
